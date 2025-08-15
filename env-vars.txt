@@ -1,0 +1,15 @@
+DATABASE_URL=""
+
+ADMIN_USERNAME="bytetrend_admin"
+ADMIN_PASSWORD="Bt$2025_strong!"
+
+OPENAI_API_KEY=""
+OPENAI_MODEL="gpt-4o-mini"
+
+SITE_NAME="ByteTrend"
+SITE_URL="https://bytetrend.vercel.app"
+NEXT_PUBLIC_GA_ID=""
+NEXT_PUBLIC_GSC_VERIFICATION=""
+NEXT_PUBLIC_ADSENSE="off"
+NEXT_PUBLIC_ADSENSE_CLIENT="ca-pub-xxxxxxxxxxxxxxxx"
+NEXT_PUBLIC_BASE_URL="https://bytetrend.vercel.app"
