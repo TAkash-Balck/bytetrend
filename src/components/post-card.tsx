@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function PostCard({ post }: any){ return (<article className="card"><h2 className="font-semibold"><Link href={`/${post.slug}`}>{post.title}</Link></h2><p className="text-sm text-gray-600">{post.excerpt}</p></article>); }

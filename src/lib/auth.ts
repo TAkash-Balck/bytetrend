@@ -1,0 +1,1 @@
+import { cookies } from "next/headers"; export function setAdminSession(){ cookies().set({ name: 'bt_admin', value: 'ok', httpOnly:true, sameSite:'lax', path:'/', secure:true, maxAge:60*60*8 }); } export function checkCredentials(u:string,p:string){ return u===process.env.ADMIN_USERNAME && p===process.env.ADMIN_PASSWORD; }

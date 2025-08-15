@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function SiteHeader(){ return (<header className="border-b p-4"><div className="max-w-5xl mx-auto flex justify-between"><Link href='/' className='font-bold'>ByteTrend</Link><nav className='flex gap-4'><Link href='/news'>News</Link><Link href='/about'>About</Link></nav></div></header>); }

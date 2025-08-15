@@ -1,0 +1,1 @@
+import { NextRequest, NextResponse } from "next/server"; import { setAdminSession, checkCredentials } from "@/lib/auth"; export async function POST(req: NextRequest){ const { u,p } = await req.json(); if (!checkCredentials(u,p)) return NextResponse.json({ error: 'Invalid' }, { status:401 }); setAdminSession(); return NextResponse.json({ ok:true }); }
