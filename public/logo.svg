@@ -1,0 +1,5 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="40" rx="10" fill="#1B1F23"/>
+  <text x="20" y="26" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="18" fill="#00E676">Byte</text>
+  <text x="68" y="26" font-family="Poppins, Arial, sans-serif" font-weight="700" font-size="18" fill="#007BFF">Trend</text>
+</svg>
