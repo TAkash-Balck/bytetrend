@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --brand:#007BFF; --brand-dark:#1B1F23; --accent:#00E676; }
+body { background:#fff; color:#1B1F23; }
+a { color: var(--brand); }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-4 py-2; background:var(--brand); color:#fff; }
+.btn-secondary { background:var(--brand-dark); color:#fff; }
+.card { @apply rounded-2xl border p-4 shadow-sm; }
+.prose img { border-radius: 1rem; }
